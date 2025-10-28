@@ -6,3 +6,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 timezone: Asia/Jakarta
+include:
+  - head.html
