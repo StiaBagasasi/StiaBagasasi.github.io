@@ -5,49 +5,49 @@ hero_title: "STIA Bagasasi — Publikasi & Arsip Digital"
 hero_subtitle: "Pusat dokumen, publikasi, dan proyek digital STIA Bagasasi."
 ---
 
-<section id="publikasi" class="grid">
+<section id="publikasi" class="grid" aria-label="Publikasi & Panduan">
   <article class="card span-6">
-    <h3>📚 Dokumen Resmi & Publikasi Akademik</h3>
+    <h2>📚 Dokumen Resmi & Publikasi Akademik</h2>
     <p>Koleksi pedoman, laporan kegiatan, dan publikasi ilmiah.</p>
     <ul>
-      <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/">Pedoman Akademik</a></li>
-      <li><a href="https://stiabagasasi.ac.id/30-mahasiswa-stia-bagasasi-lolos-mbkm-wirausaha-merdeka-wmk-di-universitas-multimedia-nusantara/">Laporan Kegiatan</a></li>
-      <li><a href="https://stiabagasasi.ac.id/lppm-sub/journal-stia-bagasasi/">Publikasi Ilmiah</a></li>
+      <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/" target="_blank" rel="noopener noreferrer">Pedoman Akademik</a></li>
+      <li><a href="https://stiabagasasi.ac.id/30-mahasiswa-stia-bagasasi-lolos-mbkm-wirausaha-merdeka-wmk-di-universitas-multimedia-nusantara/" target="_blank" rel="noopener noreferrer">Laporan Kegiatan</a></li>
+      <li><a href="https://stiabagasasi.ac.id/lppm-sub/journal-stia-bagasasi/" target="_blank" rel="noopener noreferrer">Publikasi Ilmiah</a></li>
     </ul>
   </article>
 
   <article id="panduan" class="card span-6">
-    <h3>🧭 Panduan Sistem SIAKAD</h3>
+    <h2>🧭 Panduan Sistem SIAKAD</h2>
     <p>Panduan penggunaan sistem akademik untuk sivitas.</p>
     <ul>
-      <li><a href="https://stiabagasasi.ac.id/pmb/">Panduan Mahasiswa</a></li>
-      <li><a href="https://stiabagasasi.ac.id/dosen/">Panduan Dosen</a></li>
-      <li><a href="https://siapstiabagasasi.epizy.com/">FAQ SIAKAD</a></li>
+      <li><a href="https://stiabagasasi.ac.id/pmb/" target="_blank" rel="noopener noreferrer">Panduan Mahasiswa</a></li>
+      <li><a href="https://stiabagasasi.ac.id/dosen/" target="_blank" rel="noopener noreferrer">Panduan Dosen</a></li>
+      <li><a href="https://siapstiabagasasi.epizy.com/" target="_blank" rel="noopener noreferrer">FAQ SIAKAD</a></li>
     </ul>
   </article>
 
   <article id="berita" class="card span-12">
-    <h3>📰 Berita Kampus & Kegiatan Mahasiswa</h3>
+    <h2>📰 Berita Kampus & Kegiatan Mahasiswa</h2>
     <p>Update informasi kegiatan terkini di lingkungan kampus.</p>
     <ul>
-      <li><a href="https://stiabagasasi.ac.id/lpmi-sub/survey-kegiatan/">Agenda Kegiatan</a></li>
-      <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/">Berita Terbaru</a></li>
-      <li><a href="https://stiabagasasi.ac.id/kerjasama/">Kerjasama</a></li>
+      <li><a href="https://stiabagasasi.ac.id/lpmi-sub/survey-kegiatan/" target="_blank" rel="noopener noreferrer">Agenda Kegiatan</a></li>
+      <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/" target="_blank" rel="noopener noreferrer">Berita Terbaru</a></li>
+      <li><a href="https://stiabagasasi.ac.id/kerjasama/" target="_blank" rel="noopener noreferrer">Kerjasama</a></li>
     </ul>
   </article>
 </section>
 
-<section class="grid" style="margin-top:14px">
+<section class="grid mt-14" aria-label="Tautan Penting">
   <article class="card span-4">
-    <h3>🔗 Website Resmi</h3>
-    <p><a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">stiabagasasi.ac.id</a></p>
+    <h2>🔗 Website Resmi</h2>
+    <p><a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener noreferrer">stiabagasasi.ac.id</a></p>
   </article>
   <article class="card span-4">
-    <h3>🎓 PMB Online</h3>
-    <p><a href="https://stiabagasasi.ac.id/pmb/" target="_blank" rel="noopener">Daftar Mahasiswa Baru</a></p>
+    <h2>🎓 PMB Online</h2>
+    <p><a href="https://stiabagasasi.ac.id/pmb/" target="_blank" rel="noopener noreferrer">Daftar Mahasiswa Baru</a></p>
   </article>
   <article class="card span-4">
-    <h3>🏫 Kehidupan Kampus</h3>
-    <p><a href="https://stiabagasasi.ac.id/kehidupan-kampus/" target="_blank" rel="noopener">Informasi & Fasilitas</a></p>
+    <h2>🏫 Kehidupan Kampus</h2>
+    <p><a href="https://stiabagasasi.ac.id/kehidupan-kampus/" target="_blank" rel="noopener noreferrer">Informasi & Fasilitas</a></p>
   </article>
 </section>
