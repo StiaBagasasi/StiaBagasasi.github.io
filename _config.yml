@@ -1,0 +1,6 @@
+title: STIA Bagasasi
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+timezone: Asia/Jakarta
