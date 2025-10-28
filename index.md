@@ -20,3 +20,10 @@ Halaman ini memudahkan akses ke:
 - 🧾 [Berita Kampus](https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/)
 
 > Semua dokumen & informasi ini mendukung transparansi akademik STIA Bagasasi Bandung.
+---
+
+## 🔗 Hubungan Resmi
+Website ini adalah arsip publik STIA Bagasasi dan terhubung langsung dengan situs utama:
+👉 [STIA Bagasasi Official Website](https://stiabagasasi.ac.id)
+
+> Semua tautan dan dokumen di halaman ini diverifikasi dan terbit dari domain resmi STIA Bagasasi.
