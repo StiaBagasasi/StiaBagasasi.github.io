@@ -16,7 +16,7 @@ Halaman ini memudahkan akses ke:
 ## 🔗 Tautan Penting
 - 🌐 [Website Resmi](https://stiabagasasi.ac.id)
 - 🎓 [PMB Online](https://stiabagasasi.ac.id/pmb)
-- 📚 [Panduan SIAKAD](https://stiabagasasi.ac.id/panduan/siakad)
-- 🧾 [Berita Kampus](https://stiabagasasi.ac.id/berita)
+- 📚 [Kehidupan Kampus](https://stiabagasasi.ac.id/kehidupan-kampus/)
+- 🧾 [Berita Kampus](https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/)
 
 > Semua dokumen & informasi ini mendukung transparansi akademik STIA Bagasasi Bandung.
