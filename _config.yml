@@ -1,4 +1,6 @@
-title: STIA Bagasasi
+title: STIA Bagasasi – Arsip & Publikasi Digital
+description: Pusat dokumen resmi, publikasi akademik, dan panduan digital STIA Bagasasi Bandung.
+url: "https://stiabagasasi.github.io"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
