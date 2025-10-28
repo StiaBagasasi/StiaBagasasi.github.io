@@ -8,3 +8,5 @@ plugins:
 timezone: Asia/Jakarta
 include:
   - head.html
+include:
+  - _includes
