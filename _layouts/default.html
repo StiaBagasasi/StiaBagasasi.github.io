@@ -21,6 +21,9 @@
       </a>
       <nav class="menu">
         <a href="{{ '/' | relative_url }}">Beranda</a>
+        <a href="{{ '/about'   | relative_url }}">Tentang</a>
+        <a href="{{ '/team'    | relative_url }}">Tim</a>
+        <a href="{{ '/contact' | relative_url }}">Kontak</a>
         <a href="https://stiabagasasi.ac.id/lpmi-sub/tentang-lpmi/">Tentang LPM</a>
         <a href="https://stiabagasasi.ac.id/yayasan-pendidikan-bagasasi/">Yayasan Pendidikan</a>
         <a href="https://stiabagasasi.ac.id/penandatanganan-kerjasama-stia-bagasasi-dengan-umn-universitas-multimedia-nusantara-sebagai-pengembangan-merdeka-belajar-kampus-merdeka/">Berita</a>
@@ -43,33 +46,44 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="brand-foot">
-          <img src="{{ '/assets/img/logo-stia-bagasasi.png' | relative_url }}" alt="Logo STIA Bagasasi" />
-          <strong>STIA Bagasasi</strong>
-        </div>
-        <p>Portal publik yang mendukung transparansi akademik STIA Bagasasi Bandung.</p>
-        <p><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a> · Dibangun dengan GitHub Pages</p>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand-foot">
+        <img src="{{ '/assets/img/logo-stia-bagasasi.png' | relative_url }}" alt="Logo STIA Bagasasi" />
+        <strong>STIA Bagasasi</strong>
       </div>
-      <div>
-        <h4>Tautan Penting</h4>
-        <ul class="links">
-          <li><a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">Website Resmi</a></li>
-          <li><a href="https://stiabagasasi.ac.id/pmb" target="_blank" rel="noopener">PMB Online</a></li>
-          <li><a href="https://stiabagasasi.ac.id/kehidupan-kampus/" target="_blank" rel="noopener">Kehidupan Kampus</a></li>
-          <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/" target="_blank" rel="noopener">Berita Kampus</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Kontak</h4>
-        <ul class="links">
-          <li>Email: info@stiabagasasi.ac.id</li>
-          <li>Bandung, Indonesia</li>
-        </ul>
-      </div>
+      <p>Portal publik yang mendukung transparansi akademik STIA Bagasasi Bandung.</p>
+      <p>
+        <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a> - Dibangun dengan GitHub Pages
+      </p>
+
+      <!-- ✅ Tambahkan badge di sini -->
+      <p style="opacity:0.8; font-size:0.9rem; margin-top:6px">
+        Built with ❤️ using 
+        <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+      </p>
     </div>
-  </footer>
+
+    <div>
+      <h4>Tautan Penting</h4>
+      <ul class="links">
+        <li><a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">Website Resmi</a></li>
+        <li><a href="https://stiabagasasi.ac.id/pmb" target="_blank" rel="noopener">PMB Online</a></li>
+        <li><a href="https://stiabagasasi.ac.id/kehidupan-kampus/" target="_blank" rel="noopener">Kehidupan Kampus</a></li>
+        <li><a href="https://stiabagasasi.ac.id/rapat-koordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/" target="_blank" rel="noopener">Berita Kampus</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Kontak</h4>
+      <ul class="links">
+        <li>Email: info@stiabagasasi.ac.id</li>
+        <li>Bandung, Indonesia</li>
+      </ul>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
+
