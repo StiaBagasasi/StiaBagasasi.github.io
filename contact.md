@@ -9,12 +9,12 @@ hero_subtitle: "Hubungi kami untuk informasi resmi, layanan akademik, dan kerja 
   <article class="card span-6">
     <h3>Informasi Kontak</h3>
     <ul>
-      <li><strong>Email:</strong> stiabagasasi.acid@gmail.com</li>
+      <li><strong>Email:</strong> stiabagasasi.acid@gmail.ac.id</li>
       <li><strong>Alamat:</strong> Bandung, Jawa Barat – Indonesia</li>
       <li><strong>Website:</strong> <a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">stiabagasasi.ac.id</a></li>
     </ul>
     <p>
-      <a class="btn" href="mailto:stiabagasasi.acid@gmail.com">Kirim Email</a>
+      <a class="btn" href="mailto:stiabagasasi.acid@gmail.ac.id">Kirim Email</a>
       <a class="btn" href="https://stiabagasasi.ac.id/pmb/" target="_blank" rel="noopener">PMB Online</a>
     </p>
   </article>
