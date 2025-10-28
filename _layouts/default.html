@@ -1,50 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'id' }}">
+<html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
 
-  {%- seo -%}           {# jekyll-seo-tag -> title, description, canonical, OG/Twitter, JSON-LD #}
-  {%- include head-custom.html -%}
-
-  <link rel="icon" href="/assets/img/favicon.png">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
-  <style>
-    /* gaya minimal bersih */
-    :root{--c:#0ea5e9;--tx:#0f172a;}
-    html{scroll-behavior:smooth}
-    body{margin:0;font:16px/1.7 system-ui,Segoe UI,Roboto,Ubuntu,sans-serif;color:var(--tx)}
-    header{padding:28px 16px;background:linear-gradient(120deg,#0ea5e9,#10b981);color:#fff}
-    header .wrap,main,.container{max-width:980px;margin:auto}
-    h1{margin:0;font-weight:800}
-    nav a{color:#fff;text-decoration:none;margin-right:14px;opacity:.9}
-    nav a:hover{opacity:1;text-decoration:underline}
-    main{padding:28px 16px}
-    footer{border-top:1px solid #e5e7eb;padding:24px 16px;color:#475569}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:14px 0}
-  </style>
+  {%- seo -%}               <!-- jekyll-seo-tag: title/desc/canonical/OG/Twitter/JSON-LD -->
+  {%- include head-custom.html -%}  <!-- meta verifikasi GSC -->
+  
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-      <nav>
-        <a href="{{ '/' | relative_url }}">Beranda</a>
-        <a href="https://stiabagasasi.ac.id" rel="noopener">Website Resmi</a>
-      </nav>
-    </div>
-  </header>
-
-  <main role="main">
-    {{ content }}
-  </main>
-
-  <footer>
-    <div class="container">
-      &copy; {{ "now" | date: "%Y" }} STIA Bagasasi Bandung · Dibangun dengan GitHub Pages.
-      <br> Sitemap: <a href="{{ '/sitemap.xml' | relative_url }}">{{ site.url }}/sitemap.xml</a>
-    </div>
-  </footer>
+  {{ content }}
 </body>
 </html>
