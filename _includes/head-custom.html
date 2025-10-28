@@ -1,1 +1,12 @@
-<meta name="google-site-verification" content="0f7g10yclu17JGa7o0YongY0j6_xJBcY06Nwq1OZtNA" />
+{%- comment -%}
+Tambahan <head> di luar jekyll-seo-tag.
+- Meta verifikasi GSC otomatis dari _config.yml -> site.google_site_verification
+- Preconnect/perf hints ringan
+{%- endcomment -%}
+
+{%- if site.google_site_verification and site.google_site_verification != "" -%}
+<meta name="google-site-verification" content="{{ site.google_site_verification | escape }}" />
+{%- endif -%}
+
+<link rel="preconnect" href="https://stiabagasasi.ac.id" crossorigin>
+<meta name="theme-color" content="#0ea5e9">
