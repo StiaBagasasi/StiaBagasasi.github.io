@@ -1,6 +1,7 @@
 ---
 title: STIA Bagasasi – Publikasi & Arsip Digital
-description: Pusat dokumen, publikasi, dan proyek digital STIA Bagasasi.
+description: Portal publikasi resmi, pedoman akademik, dan arsip kegiatan STIA Bagasasi Bandung.
+permalink: /
 ---
 
 # STIA Bagasasi – Pusat Publikasi
