@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title | default: site.title }}</title>
-
-  {%- seo -%}               <!-- jekyll-seo-tag: title/desc/canonical/OG/Twitter/JSON-LD -->
-  {%- include head-custom.html -%}  <!-- meta verifikasi GSC -->
-  
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+  {% seo %}
+  {% include head.html %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  {{ content }}
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/img/logo-stia-bagasasi.png' | relative_url }}" alt="Logo STIA Bagasasi" class="brand-logo" />
+        <span class="brand-name">STIA Bagasasi</span>
+      </a>
+      <nav class="menu">
+        <a href="{{ '/' | relative_url }}">Beranda</a>
+        <a href="https://stiabagasasi.ac.id/lpmi-sub/tentang-lpmi/">Tentang LPM</a>
+        <a href="https://stiabagasasi.ac.id/yayasan-pendidikan-bagasasi/">Yayasan Pendidikan</a>
+        <a href="https://stiabagasasi.ac.id/penandatanganan-kerjasama-stia-bagasasi-dengan-umn-universitas-multimedia-nusantara-sebagai-pengembangan-merdeka-belajar-kampus-merdeka/">Berita</a>
+        <a class="btn" href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">Website Resmi</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>{{ page.hero_title | default: "Publikasi & Arsip Digital" }}</h1>
+      <p class="lead">{{ page.hero_subtitle | default: "Pusat dokumen, publikasi, dan proyek digital STIA Bagasasi." }}</p>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <main class="container content">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-foot">
+          <img src="{{ '/assets/img/logo-stia-bagasasi.png' | relative_url }}" alt="Logo STIA Bagasasi" />
+          <strong>STIA Bagasasi</strong>
+        </div>
+        <p>Portal publik yang mendukung transparansi akademik STIA Bagasasi Bandung.</p>
+        <p><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a> · Dibangun dengan GitHub Pages</p>
+      </div>
+      <div>
+        <h4>Tautan Penting</h4>
+        <ul class="links">
+          <li><a href="https://stiabagasasi.ac.id" target="_blank" rel="noopener">Website Resmi</a></li>
+          <li><a href="https://stiabagasasi.ac.id/pmb" target="_blank" rel="noopener">PMB Online</a></li>
+          <li><a href="https://stiabagasasi.ac.id/kehidupan-kampus/" target="_blank" rel="noopener">Kehidupan Kampus</a></li>
+          <li><a href="https://stiabagasasi.ac.id/rapat-kordinasi-persiapan-perkuliahan-genap-tahun-akademik-2023-2024-stia-bagasasi/" target="_blank" rel="noopener">Berita Kampus</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul class="links">
+          <li>Email: info@stiabagasasi.ac.id</li>
+          <li>Bandung, Indonesia</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
