@@ -1,12 +1,45 @@
-title: STIA Bagasasi – Arsip & Publikasi Digital
-description: Pusat dokumen resmi, publikasi akademik, dan panduan digital STIA Bagasasi Bandung.
-url: "https://stiabagasasi.github.io"
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# ---------- Site basics ----------
+title: "STIA Bagasasi — Publikasi & Arsip Digital"
+description: "Pusat dokumen, publikasi, dan proyek digital STIA Bagasasi Bandung."
+lang: id
 timezone: Asia/Jakarta
-include:
-  - head.html
+
+# URL dasar situs ini (ubah kalau nanti pakai custom domain)
+url: "https://stiabagasasi.github.io"
+baseurl: ""   # jangan diubah untuk user/organization pages
+
+# Untuk jekyll-seo-tag (akan memicu JSON-LD + meta OG/Twitter)
+logo: /assets/img/logo-stia-bagasasi.png   # boleh belum ada; aman
+author:
+  name: "STIA Bagasasi Bandung"
+social:
+  name: "STIA Bagasasi Bandung"
+  links:
+    - https://stiabagasasi.ac.id
+
+# Verifikasi (opsional, tapi enak disimpan di config)
+google_site_verification: "0f7g10yclu17JGa7o0YongY0j6_xJbCY06NWq1QZtNA"
+
+# Pastikan folder custom ikut dibuild
 include:
   - _includes
+  - assets
+  - head.html
+
+# Plugin resmi GitHub Pages (aman dipakai)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Default front matter (biar setiap halaman punya layout & canonical rapi)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
