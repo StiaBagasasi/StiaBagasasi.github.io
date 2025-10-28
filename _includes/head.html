@@ -1,0 +1,16 @@
+{%- comment -%}
+Potongan <head> tambahan untuk layout.
+- Meta verifikasi GSC otomatis dari _config.yml (site.google_site_verification)
+- Preconnect / perf hints ringan
+- Favicon & theme color
+{%- endcomment -%}
+
+{%- if site.google_site_verification and site.google_site_verification != "" -%}
+<meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
+{%- endif -%}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+<meta name="theme-color" content="#0ea5e9">
